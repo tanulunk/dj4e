@@ -1,0 +1,23 @@
+{{question}}
+<h1>{{ question.question_text }}</h1>
+<ul>
+{% for choice in question.choice_set.all %}
+    <li>{{ choice.choice_text }}</li>
+{% endfor %}
+</ul>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Detail Page</title>
+        <link rel="stylesheet" href="static/css/style.css" type="text/css"> 
+    </head>
+    <body>
+        <h1>{{ question.question_text }}</h1>
+        <ul>
+            {% for choice in question.choice_set.all %}
+            <li>{{ choice.choice_text }}</li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>

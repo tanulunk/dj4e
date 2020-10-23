@@ -1,0 +1,17 @@
+a {
+    color: #33cf77;
+
+}
+a:hover {
+    color: #5555ff;
+}
+
+body{
+    background-color: whitesmoke;
+    font-family: Lato, Corbel, Arial, Helvetica, sans-serif;
+}
+
+html{
+    background-color: gray;
+}
+
